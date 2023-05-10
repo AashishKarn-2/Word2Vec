@@ -11,3 +11,8 @@ Word2vec works by considering the context in which words appear in a text corpus
 Once the word embeddings have been learned, they can be used in a variety of natural language processing tasks. For example, word embeddings can be used to find words that are semantically similar to one another, or to identify words that frequently appear together in a given context. Word embeddings can also be used to improve the accuracy of machine learning models used in natural language processing, such as sentiment analysis or language translation.
 
 Word2vec has become a popular tool in natural language processing due to its ability to capture complex relationships between words in a text corpus. It has been used in a variety of applications, from predicting the next word in a sentence to improving the accuracy of machine translation models. As the field of natural language processing continues to advance, it is likely that word2vec and other word embedding techniques will continue to play an important role in the development of more advanced language technologies.
+
+
+
+
+![Untitled (2)](https://github.com/Aashish-compo/Word2Vec/assets/64850093/4b56be9a-7d82-4231-9d13-398c79f478f5)
