@@ -16,3 +16,35 @@ Word2vec has become a popular tool in natural language processing due to its abi
 
 
 ![Untitled (2)](https://github.com/Aashish-compo/Word2Vec/assets/64850093/4b56be9a-7d82-4231-9d13-398c79f478f5)
+
+Below we see that from google news dataset we have 300 number’s vector is used for the representation of one word and someone has extracted only 50 features and encoded it. It has make 300 features. We have extracted 50 features which is color coded.
+INTERESTING: WE NEVER KNOW WHAT THAT FEATURE IS BUT THAT’S A FEATURE
+
+The two ways of doing word2vec are:
+
+1. Continuous Bag of Words (CBOW)
+2. Skip-gram
+
+**CBOW**
+
+Steps for doing word2vec
+
+1. Convert each word to the one hot encoded form
+2. Create a Fake problem where 1st and 3rd word are input and second word is output
+3. eg: I am a boy. **“I”** and **“a”** is input and **“am”** is output.
+4. Finally we feed the encoded form of the **“I”** and **“a”** as input in neural net and gets the weight.
+5. Now output layer consist of the all vocabulary. Now the weight connected between Hidden layer and Last layer is final vector representation of that word. In Below case [w1, w2, w3] is vector representation of the watch 
+![Untitled (6)](https://github.com/Aashish-compo/Word2Vec/assets/64850093/25dbd618-7344-4131-a6e4-be0f8c4f4ea9)
+
+**Skip-gram**
+
+In skip-gram same thing is done but now we make middle word as input and side two words as output.
+![Untitled (1)](https://github.com/Aashish-compo/Word2Vec/assets/64850093/73735dfe-a83f-408a-bdae-d35b872f6d90)
+HERE → 1st layers weight is assigned as the vector of the individually input word.
+
+NOTE: CBOW is generally used for small data and Skip-gram is used for larger dataset.
+
+
+
+
+
