@@ -1,3 +1,4 @@
+Source and support: https://youtu.be/DDfLc5AHoJI
 ## Word Embedding
 
 Word embedding is a technique used in natural language processing **to represent words as numerical vectors.** These vectors are created by analyzing large amounts of text data and identifying patterns in how words are used together. **Each word is then assigned a vector based on its relationship to other words in the text.** This allows computers **to understand the meaning and context of words,** which is useful for tasks like **language translation and sentiment analysis**. Word embedding has become an important tool in the field of natural language processing and has helped to advance the development of more advanced language technologies.
